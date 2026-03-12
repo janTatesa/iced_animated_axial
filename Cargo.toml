@@ -1,0 +1,12 @@
+[package]
+name = "iced_animated_axial"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced_core = {git = "https://github.com/iced-rs/iced"}
+iced_renderer = {git = "https://github.com/iced-rs/iced"}
+
+[dev-dependencies]
+iced = {git = "https://github.com/iced-rs/iced"}
+rand = "0.10.0"
