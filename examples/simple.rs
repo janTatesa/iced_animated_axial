@@ -105,7 +105,7 @@ impl App {
                 1, val
             ))
             .style(|theme: &Theme, status| {
-                let palette = theme.extended_palette();
+                let palette = theme.palette();
 
                 let color = match status {
                     slider::Status::Active => palette.danger.base.color,
@@ -122,7 +122,7 @@ impl App {
                 2, val
             ))
             .style(|theme: &Theme, status| {
-                let palette = theme.extended_palette();
+                let palette = theme.palette();
 
                 let color = match status {
                     slider::Status::Active => palette.success.base.color,

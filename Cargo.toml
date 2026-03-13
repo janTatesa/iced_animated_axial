@@ -8,5 +8,5 @@ iced_core = {git = "https://github.com/iced-rs/iced", branch = "master"}
 iced_renderer = {git = "https://github.com/iced-rs/iced", branch = "master"}
 
 [dev-dependencies]
-iced = {git = "https://github.com/iced-rs/iced"}
+iced = {git = "https://github.com/iced-rs/iced", branch = "master"}
 rand = "0.10.0"

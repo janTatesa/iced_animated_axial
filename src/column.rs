@@ -226,6 +226,6 @@ impl<'a, const N: usize, Message: Clone + 'a, Theme: Clone + 'a, Renderer: iced_
 #[macro_export]
 macro_rules! animated_column {
     ($($x:expr),+ $(,)?) => {
-        $crate::AnimatedColumn::new([$($x),+])
+        $crate::AnimatedColumn::new([$(Element::from($x)),+])
     };
 }

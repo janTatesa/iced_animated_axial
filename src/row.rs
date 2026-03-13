@@ -225,6 +225,6 @@ impl<'a, const N: usize, Message: Clone + 'a, Theme: Clone + 'a, Renderer: iced_
 #[macro_export]
 macro_rules! animated_row {
     ($($x:expr),+ $(,)?) => {
-        $crate::AnimatedRow::new([$($x),+])
+        $crate::AnimatedRow::new([$(Element::from($x)),+])
     };
 }
